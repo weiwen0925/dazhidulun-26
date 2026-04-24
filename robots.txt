@@ -1,0 +1,124 @@
+# robots.txt for dazhidulun-26 GitHub Pages
+# 一般搜尋引擎：允許索引
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================================
+# 拒絕所有 AI 語言模型訓練爬蟲
+# ============================================================
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+# Google AI 訓練專用（與一般 Googlebot 區分）
+User-agent: Google-Extended
+Disallow: /
+
+# Common Crawl（供各大模型訓練）
+User-agent: CCBot
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+# Meta / Facebook
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# Apple
+User-agent: Applebot-Extended
+Disallow: /
+
+# ByteDance / TikTok
+User-agent: Bytespider
+Disallow: /
+
+User-agent: TikTokSpider
+Disallow: /
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# Diffbot
+User-agent: Diffbot
+Disallow: /
+
+# You.com
+User-agent: YouBot
+Disallow: /
+
+# Huawei
+User-agent: PetalBot
+Disallow: /
+
+# 其他已知 AI / 訓練相關
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Kangaroo Bot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: MistralAI-User
+Disallow: /
+
+# Sitemap（如未來製作）
+# Sitemap: https://weiwen0925.github.io/dazhidulun-26/sitemap.xml
