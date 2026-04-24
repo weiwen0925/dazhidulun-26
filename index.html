@@ -18027,6 +18027,92 @@ h5{font-size:18.5px!important;}
 <button id="backTop" title="回頂部">↑</button>
 
 <script>
+/* ============ 下載混淆層 · Domain/Protocol Lock ============
+   本頁僅允許於官方 GitHub Pages 網址運行。
+   若被下載、另存新檔、離線打開（file://）或鏡像至他站，
+   將自毀內容並重導向回官方網址。 */
+(function(){
+  try{
+    var OFFICIAL = 'https://weiwen0925.github.io/dazhidulun-26/';
+    var ALLOWED_HOSTS = ['weiwen0925.github.io','localhost','127.0.0.1'];
+    var loc = window.location;
+    var proto = (loc.protocol||'').toLowerCase();
+    var host  = (loc.hostname||'').toLowerCase();
+    var badProto = (proto==='file:' || proto==='data:' || proto==='blob:');
+    var badHost  = (host==='' || ALLOWED_HOSTS.indexOf(host) === -1);
+    if(badProto || badHost){
+      /* 清空所有內容 */
+      try{
+        document.documentElement.innerHTML =
+          '<head><meta charset="UTF-8"><title>頁面已鎖定</title>'+
+          '<meta http-equiv="refresh" content="2;url='+OFFICIAL+'">'+
+          '<style>body{margin:0;font-family:"Noto Serif TC",serif;'+
+          'background:linear-gradient(135deg,#2a2218 0%,#3d3225 50%,#2a2218 100%);'+
+          'color:#d4c4a8;display:flex;flex-direction:column;align-items:center;'+
+          'justify-content:center;min-height:100vh;padding:40px;text-align:center;}'+
+          'h1{font-size:28px;color:#d4a84b;letter-spacing:3px;margin-bottom:24px;}'+
+          'p{font-size:16px;line-height:2;margin:8px 0;color:#c4956a;}'+
+          'a{color:#d4a84b;text-decoration:none;border-bottom:1px solid #d4a84b;}'+
+          'a:hover{color:#fff;}'+
+          '.seal{font-size:48px;color:#8B2500;margin-bottom:16px;}'+
+          '</style></head>'+
+          '<body>'+
+          '<div class="seal">○</div>'+
+          '<h1>本閱讀本僅能於官方網址使用</h1>'+
+          '<p>下載、另存新檔、離線副本均已自動鎖定。</p>'+
+          '<p>正在為您重新導向官方頁面…</p>'+
+          '<p style="margin-top:32px;"><a href="'+OFFICIAL+'">'+OFFICIAL+'</a></p>'+
+          '<p style="margin-top:40px;font-size:13px;color:#6B5B4B;">'+
+          '《大智度論》卷二十六 · 十八不共法彙整本<br>'+
+          '作者：chengweiwen · 歡迎結緣轉發，請保留原始網址'+
+          '</p>'+
+          '</body>';
+      }catch(_){};
+      /* 雙保險：2 秒後自動導向 */
+      setTimeout(function(){
+        try{ loc.replace(OFFICIAL); }catch(_){
+          try{ loc.href = OFFICIAL; }catch(__){};
+        }
+      }, 1500);
+      /* 拋異常阻斷後續 JS */
+      throw new Error('__LOCKED__');
+    }
+  }catch(e){
+    if(e && e.message==='__LOCKED__') throw e;
+    /* 其他例外不阻擋正常頁面 */
+  }
+})();
+
+/* ============ 水印層 · 永久浮水印（含官方網址）============
+   即使 JS 被部分繞過，水印仍會顯示，提醒讀者前往官方網址。 */
+(function(){
+  try{
+    var wm = document.createElement('div');
+    wm.setAttribute('data-wy-wm','v1');
+    wm.style.cssText =
+      'position:fixed;bottom:14px;right:16px;z-index:2147483646;'+
+      'font-family:"Noto Sans TC",sans-serif;font-size:10px;'+
+      'color:rgba(184,134,11,0.55);background:rgba(255,253,247,0.85);'+
+      'padding:5px 10px;border:1px solid rgba(196,149,106,0.4);'+
+      'border-radius:4px;pointer-events:none;letter-spacing:0.5px;'+
+      'backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);'+
+      'user-select:none;-webkit-user-select:none;';
+    wm.textContent = 'weiwen0925.github.io/dazhidulun-26';
+    if(document.body) document.body.appendChild(wm);
+    else document.addEventListener('DOMContentLoaded',function(){document.body.appendChild(wm);});
+    /* MutationObserver 防刪除 */
+    try{
+      var mo = new MutationObserver(function(){
+        if(!document.body) return;
+        if(!document.body.contains(wm)){
+          try{ document.body.appendChild(wm); }catch(_){};
+        }
+      });
+      mo.observe(document.documentElement,{childList:true,subtree:true});
+    }catch(_){};
+  }catch(_){};
+})();
+
 /* ===== 側欄 toggle ===== */
 var sb = document.getElementById('sb');
 var sbT = document.getElementById('sbToggle');
