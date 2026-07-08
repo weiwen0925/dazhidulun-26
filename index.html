@@ -1362,5 +1362,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C26P10:END-->
+<!--WY-C26P11:BEGIN-->
+<style id="wy-c26p11-css">
+.c26p11-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c26p11-fabbox.show{display:block;}
+.c26p11-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c26p11-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c26p11-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c26p11-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c26p11-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c26p11-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c26p11-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c26p11-modal.open{display:flex;}
+.c26p11-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c26p11-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c26p11-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c26p11-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c26p11-close:hover{background:#e3d5b8;}
+.c26p11-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c26p11-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c26p11-tbl th,.c26p11-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c26p11-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c26p11-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c26p11-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c26p11-tbl b{color:#8b2500;}
+.c26p11-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c26p11-note b{color:#8b2500;}
+@media(max-width:900px){.c26p11-fabbox{right:14px;}.c26p11-tbl{font-size:11.5px;}.c26p11-card{padding:26px 14px 16px;}}
+</style>
+<div class="c26p11-fabbox" id="c26p11Box"><button class="c26p11-btn" id="c26p11Btn" type="button" aria-label="開啟全景總表"><span class="c26p11-ic">▦</span><span class="c26p11-ls"><span class="c26p11-l1">本品 · 解脫無減</span><span class="c26p11-l2">有為無為雙圓滿 · 漏盡力習氣永盡</span></span></button></div><div class="c26p11-modal" id="c26p11Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c26p11-card"><button class="c26p11-close" id="c26p11Close" type="button" aria-label="關閉">×</button><h3>卷二十六·第十一品 解脫無減 · 全景總表</h3><p class="sub">卷二十六・第十一品｜有為無為二種解脫・漏盡力・習氣試金石・畢竟空無所著</p><table class="c26p11-tbl"><caption>一、解脫的雙重構造與核心命題（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心命題</td><td>二乘聖者同斷煩惱同證解脫，為何解脫仍判有減，唯佛稱無減？差別不在是否斷煩惱，而在智慧是否第一利、習氣是否永盡無餘</td></tr><tr><td>有為解脫</td><td>無漏智慧相應解脫——動態的智慧作用，關鍵指標是智慧的銳利度，能否靈活觀照萬法應機度眾</td></tr><tr><td>無為解脫</td><td>一切煩惱習都盡無餘——靜態的徹底淨盡，煩惱（粗重貪瞋癡）易斷，習氣（殘留慣性）唯佛能盡</td></tr><tr><td>漏盡力</td><td>佛得漏盡力故解脫無減；二乘無力故有減——漏盡力是分判凡聖的樞紐</td></tr></tbody></table><table class="c26p11-tbl"><caption>二、凡聖對比與習氣試金石</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>凡聖對照表</td><td>聲聞辟支佛：智慧不大利、煩惱盡習氣存、解脫有減；佛陀：智慧第一利、煩惱習永盡無餘、解脫無減</td></tr><tr><td>瓶中盛香喻</td><td>倒棄香水之後瓶中餘氣尚存，是二乘境界；佛陀將瓶身薰洗至徹底無味，煩惱與習氣俱盡纖毫不留</td></tr><tr><td>半截子解脫警示</td><td>僅有停損（不造惡）是不夠的，必須具備大智（主動的觀照力）；只斷不觀便落入半截子解脫的死水</td></tr><tr><td>智斷雙圓</td><td>斷（追求極致清淨，對應無為解脫）與智（培養無漏覺察力，對應有為解脫）交攝之處，即是解脫無減</td></tr></tbody></table><table class="c26p11-tbl"><caption>三、中觀般若與究竟義（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>世俗諦如理分別</td><td>智鈍加習存（二乘）升進為智利加習盡（佛陀）——如理分別引導行者趣向究竟漏盡力的渴仰階梯</td></tr><tr><td>第一義諦皆一寂滅相</td><td>若執著有一實體煩惱被消滅或有一實體解脫被獲得，即落生滅二元；佛陀照見諸法畢竟空，無所著、一寂滅相</td></tr><tr><td>究竟義·因無所著故無減</td><td>因為無所著，所以沒有什麼可以減少；因為超越世俗的極限與對立，自然無所謂增減</td></tr><tr><td>三層全息公式</td><td>邏輯層（智慧第一利＋煩惱習永盡＝漏盡力）→心法層（有為解脫＋無為解脫＝智斷雙圓）→中觀層（無所著＋一寂滅相＝解脫無減）</td></tr></tbody></table><p class="c26p11-note">本品揭示解脫無減的關鍵，不在「是否解脫」而在解脫的徹底性——有為解脫看智慧是否第一利，無為解脫看煩惱習是否盡淨無餘，二乘於此二軸各差一截，故曰有減；佛陀於此二軸俱達極致，故曰無減。以瓶中盛香為喻，二乘香水已倒而餘氣猶存，佛陀則薰洗至徹底無味——習氣正是檢驗解脫究竟與否的試金石。終轉入第一義諦：若執有一實體煩惱被滅、有一實體解脫被得，即落生滅二元；佛陀照見畢竟空、無所著，故解脫無減之究竟義，正在「因無所著，故無所減」。</p></div></div>
+<script id="wy-c26p11-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c26p11Btn"),BOX=document.getElementById("c26p11Box"),MODAL=document.getElementById("c26p11Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=10;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c26p11Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C26P11:END-->
 </body>
 </html>
