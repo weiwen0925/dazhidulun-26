@@ -1309,5 +1309,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C26P9:END-->
+<!--WY-C26P10:BEGIN-->
+<style id="wy-c26p10-css">
+.c26p10-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c26p10-fabbox.show{display:block;}
+.c26p10-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c26p10-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c26p10-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c26p10-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c26p10-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c26p10-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c26p10-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c26p10-modal.open{display:flex;}
+.c26p10-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c26p10-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c26p10-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c26p10-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c26p10-close:hover{background:#e3d5b8;}
+.c26p10-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c26p10-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c26p10-tbl th,.c26p10-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c26p10-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c26p10-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c26p10-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c26p10-tbl b{color:#8b2500;}
+.c26p10-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c26p10-note b{color:#8b2500;}
+@media(max-width:900px){.c26p10-fabbox{right:14px;}.c26p10-tbl{font-size:11.5px;}.c26p10-card{padding:26px 14px 16px;}}
+</style>
+<div class="c26p10-fabbox" id="c26p10Box"><button class="c26p10-btn" id="c26p10Btn" type="button" aria-label="開啟全景總表"><span class="c26p10-ic">▦</span><span class="c26p10-ls"><span class="c26p10-l1">本品 · 慧無減</span><span class="c26p10-l2">定油念炷慧光明 · 不生不滅入不二法相</span></span></button></div><div class="c26p10-modal" id="c26p10Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c26p10-card"><button class="c26p10-close" id="c26p10Close" type="button" aria-label="關閉">×</button><h3>卷二十六·第十品 慧無減 · 全景總表</h3><p class="sub">卷二十六・第十品｜一切智三世無礙・燈油譬喻・捨身求智・不二入法相</p><table class="c26p10-tbl"><caption>一、名義訓釋與十門因緣（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心公理</td><td>佛得一切智慧故慧無減，三世智慧無礙故慧無減——圓滿（量之圓滿）與無礙（時之周遍）兩義具足，慧無減乃必然結果</td></tr><tr><td>燈油樞紐譬喻</td><td>三昧王等諸三昧禪定油、念無減清淨炷，是因緣故慧光明無量無減——酥油豐饒燈炷清淨則光明盛</td></tr><tr><td>捨身求智因緣</td><td>從初發心無量阿僧祇劫，頭目髓腦悉捨內外所有而布施，入火投山剝皮釘身，一心為集智慧故</td></tr><tr><td>不二入法相</td><td>實知諸法相不生不滅不淨不垢無作無行，不以二法故得不二入法相，不二入法相無量無邊，以是故慧無減</td></tr></tbody></table><table class="c26p10-tbl"><caption>二、三樂章·邏輯生成與行者心法</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>光學方程式</td><td>定（酥油·燃料）＋念（燈炷·結構）＝慧（光明·輸出）——缺乏定的智慧只是乾慧，油豐炷淨則光明必盛</td></tr><tr><td>全知知識庫</td><td>世世求一切經書，世俗法佛法麁細善不善悉皆學知——無法度化你所不了解的事物，全知要求對凡夫世界的顆粒度理解</td></tr><tr><td>動機迴路</td><td>為一切眾生故、為增益一切善法故、破一切處無明故——無明無盡，故慧亦無盡</td></tr><tr><td>行者心法五道</td><td>警惕乾慧（智慧若無犧牲便是大腦遊戲）＋不逃避世俗＋悲智雙運＋破除我慢＋不分別智與非智</td></tr></tbody></table><table class="c26p10-tbl"><caption>三、中觀實相與六無減總樞（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>不生不滅故無可減</td><td>若有生必有滅，佛慧知法不生故無可滅；若有增必有減，佛慧本自圓滿故無可增無可減</td></tr><tr><td>解構二元對立</td><td>世俗見智慧與無明對立；中觀見智慧與無明皆性空，不以二法故得不二入法相，邊界消融則無極限</td></tr><tr><td>二諦圓融</td><td>世俗諦（Doing）：酥油燈炷犧牲學習積累福德；第一義諦（Being）：不生不滅不二法門本自具足</td></tr><tr><td>六無減總樞</td><td>上承念無減（念為慧炷），下啟解脫無減（慧為脫因）——由念起慧、由慧證脫，慧無減居中為修證鏈的轉樞</td></tr></tbody></table><p class="c26p10-note">本品以「燈油譬喻」為樞紐——三昧禪定如酥油、念無減如清淨炷、慧光明無量無減如燈焰，串起捨身求智、遍學世法佛法、十方聞法問難、動機迴路等九門因緣，說明智慧如何在世俗諦上因緣具足而生成。行者心法提醒五道警惕：智慧若無犧牲與福德便成乾慧，須悲智雙運、破除我慢、不分別智與非智，心如虛空無染無著方能無減。終歸中觀第一義諦：佛慧實知諸法不生不滅，不以二法故得不二入法相，此法相無量無邊——邏輯（生成）、心法（態度）、中觀（本質）三者圓融無礙，即是「以是故，慧無減」的全幅圖景。</p></div></div>
+<script id="wy-c26p10-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c26p10Btn"),BOX=document.getElementById("c26p10Box"),MODAL=document.getElementById("c26p10Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=9;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c26p10Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C26P10:END-->
 </body>
 </html>
