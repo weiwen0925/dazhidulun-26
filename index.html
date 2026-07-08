@@ -1468,5 +1468,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C26P12:END-->
+<!--WY-C26P13:BEGIN-->
+<style id="wy-c26p13-css">
+.c26p13-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c26p13-fabbox.show{display:block;}
+.c26p13-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c26p13-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c26p13-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c26p13-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c26p13-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c26p13-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c26p13-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c26p13-modal.open{display:flex;}
+.c26p13-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c26p13-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c26p13-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c26p13-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c26p13-close:hover{background:#e3d5b8;}
+.c26p13-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c26p13-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c26p13-tbl th,.c26p13-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c26p13-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c26p13-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c26p13-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c26p13-tbl b{color:#8b2500;}
+.c26p13-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c26p13-note b{color:#8b2500;}
+@media(max-width:900px){.c26p13-fabbox{right:14px;}.c26p13-tbl{font-size:11.5px;}.c26p13-card{padding:26px 14px 16px;}}
+</style>
+<div class="c26p13-fabbox" id="c26p13Box"><button class="c26p13-btn" id="c26p13Btn" type="button" aria-label="開啟全景總表"><span class="c26p13-ic">▦</span><span class="c26p13-ls"><span class="c26p13-l1">本品 · 身口意業隨智慧行</span><span class="c26p13-l2">先知後行 · 方便出於實智</span></span></button></div><div class="c26p13-modal" id="c26p13Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c26p13-card"><button class="c26p13-close" id="c26p13Close" type="button" aria-label="關閉">×</button><h3>卷二十六·第十三品 身口意業隨智慧行 · 全景總表</h3><p class="sub">卷二十六・第十三品｜先知然後隨智慧行・身業口業意業之謎・二諦系統・方便出於實智</p><table class="c26p13-tbl"><caption>一、總綱與凡聖運作機制之別（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心總綱</td><td>佛一切身口意業，先知然後隨智慧行——連呼吸吐納這等無記之事，都成利益眾生的因緣</td></tr><tr><td>凡佛運作機制</td><td>凡夫：刺激→情緒習氣→未經省察造作；佛：刺激→智慧先知預觀→隨智而行</td></tr><tr><td>聖者分野</td><td>聲聞辟支佛心故作善然後身口業善，意業或時無記不隨智慧而自生；佛惡心久滅習氣已盡，一切行止皆與智慧相應</td></tr><tr><td>論主設難總覽</td><td>入外道眾無人信受、現胸臆示尼揵子、現舌相陰藏相、罵弟子狂愚人、畜八種鉢、默然不答、處處說有我無我——似不隨智慧行之七類疑難</td></tr></tbody></table><table class="c26p13-tbl"><caption>二、身業口業之謎的逐項化解</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>入外道眾·種後世因緣</td><td>雖知今世不信不受，以種後世得度大因緣故——止息外道譏謗，令外道弟子不復難師而聞法信受</td></tr><tr><td>降伏慢心·薩遮尼揵子</td><td>薩遮尼揵子與佛論議不能答汗流淹地，佛現清涼無汗相，折伏對手驕慢令其開意得解</td></tr><tr><td>神通疑示相信</td><td>有人應得道而以疑二相之故不得，佛現舌相陰藏相令疑斷——神通是針對特定疑難的斷疑生信</td></tr><tr><td>口業之謎·語氣與存心</td><td>苦切語有垢心瞋罵與憐愍教化二種，差別不在語氣而在存心；狂人（三毒所醉）、死人（外現聖儀內無慧命）、嗽唾人（提婆達多），皆是實語非辱罵</td></tr></tbody></table><table class="c26p13-tbl"><caption>三、意業之謎與究竟義（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>十四難置答</td><td>此類問題不導向涅槃徒增疑惑（如毒箭喻），且以常滅為前提而常滅實無，前提不成立問題本身無法成立</td></tr><tr><td>說有說無對治</td><td>佛無定說唯視眾生之病而藥之——為墮斷見者說有我建立因果責任，為墮常見者說無我破除執著，補正計算法務令歸中道</td></tr><tr><td>二諦二空系統</td><td>第一義諦（性空無我）多為出家求道者說；世俗諦（假名我業報）多為在家者說；說無我示眾生空，說無有法示法空</td></tr><tr><td>方便出於實智</td><td>眾生根器＋大悲本願＝善巧方便——佛在形式上的種種不一致，正是祂在智慧上絕對一致的流露；佛惡心久已滅，如鏡反射我們內在需要的藥方</td></tr></tbody></table><p class="c26p13-note">本品總綱「先知然後隨智慧行」，揭示凡夫刺激即被情緒習氣牽動、佛則刺激先經智慧過濾的根本差異，並以聲聞辟支佛意業或時無記、唯佛習氣已盡作為聖者分野。論主連舉身業（入外道眾、降伏慢心、示現神通）、口業（苦切語、狂人死人嗽唾人）、意業（十四難置答、說有說無）七類看似矛盾的疑難，龍樹逐一以「先有智慧，然後諸業隨智慧行」化解——入外道眾是為種後世大因緣，苦切語差別在存心而非語氣，說有說無皆是應病與藥的補正計算法。終歸究竟義：方便出於實智，眾生根器加大悲本願等於善巧方便，形式上千變萬化，智慧上絕對一致。</p></div></div>
+<script id="wy-c26p13-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c26p13Btn"),BOX=document.getElementById("c26p13Box"),MODAL=document.getElementById("c26p13Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=12;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c26p13Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C26P13:END-->
 </body>
 </html>
