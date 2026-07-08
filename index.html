@@ -1415,5 +1415,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C26P11:END-->
+<!--WY-C26P12:BEGIN-->
+<style id="wy-c26p12-css">
+.c26p12-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c26p12-fabbox.show{display:block;}
+.c26p12-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c26p12-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c26p12-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c26p12-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c26p12-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c26p12-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c26p12-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c26p12-modal.open{display:flex;}
+.c26p12-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c26p12-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c26p12-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c26p12-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c26p12-close:hover{background:#e3d5b8;}
+.c26p12-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c26p12-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c26p12-tbl th,.c26p12-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c26p12-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c26p12-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c26p12-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c26p12-tbl b{color:#8b2500;}
+.c26p12-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c26p12-note b{color:#8b2500;}
+@media(max-width:900px){.c26p12-fabbox{right:14px;}.c26p12-tbl{font-size:11.5px;}.c26p12-card{padding:26px 14px 16px;}}
+</style>
+<div class="c26p12-fabbox" id="c26p12Box"><button class="c26p12-btn" id="c26p12Btn" type="button" aria-label="開啟全景總表"><span class="c26p12-ic">▦</span><span class="c26p12-ls"><span class="c26p12-l1">本品 · 解脫知見無減</span><span class="c26p12-l2">四因二果閉環 · 盡知遍知真空妙有</span></span></button></div><div class="c26p12-modal" id="c26p12Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c26p12-card"><button class="c26p12-close" id="c26p12Close" type="button" aria-label="關閉">×</button><h3>卷二十六·第十二品 解脫知見無減 · 全景總表</h3><p class="sub">卷二十六・第十二品｜四因二果系統・知見語意解構・凡聖法眼之別・真空妙有</p><table class="c26p12-tbl"><caption>一、四因二果的閉環系統（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>原典定義</td><td>佛於諸解脫中智慧無量無邊清淨故，名解脫知見無減——無減的根據不在數量而在智慧的清淨與無量無邊</td></tr><tr><td>為何只六事</td><td>一切自利他利中四事能具足：欲求一切善法之根本、精進能行、念能守護如守門人、慧照一切法門斷一切煩惱</td></tr><tr><td>四因功能定位</td><td>欲與精進是動力系統（齒輪·動能）、念是防禦系統（守門人）、慧是導航系統（照亮法門斷惑）</td></tr><tr><td>二果之別</td><td>解脫是擺脫束縛的實際狀態（病人被治癒）；解脫知見是理解自由的機制（醫生知道如何治癒）——四因二果構成無漏閉環</td></tr></tbody></table><table class="c26p12-tbl"><caption>二、知見語意解構與凡聖法眼之別</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>雙股為繩</td><td>言知言見事得牢固，譬如繩二合為一則牢固——阿毘曇慧有三種：有知非見、有見非知、亦知亦見，唯知見並舉方能具足涵蓋</td></tr><tr><td>耳聞vs目睹</td><td>知來自誦讀分別籌量，猶尚有疑；見是自身得證，了了無疑——聽聞佛法尚不足夠，必須親見解脫</td></tr><tr><td>阿羅漢有減三因</td><td>不得一切智故、上上智慧根不成就故、諸法念念生滅時不知別相分別故——阿羅漢知總相如房間之燈，佛遍知一切如太陽之光</td></tr><tr><td>法眼清淨診斷矩陣</td><td>知是眾生空解脫門入涅槃、是眾生無相解脫門入涅槃、是眾生無作解脫門入涅槃，應病與藥精準匹配三解脫門與五蘊十二入十八界</td></tr></tbody></table><table class="c26p12-tbl"><caption>三、中觀統攝與真空妙有（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>世俗諦vs第一義諦</td><td>世俗諦：四因二果是嚴謹步驟，系統有真實運作次第因果；第一義諦：步驟本質是空，次第宛然而當體即空</td></tr><tr><td>能修之法本性皆空</td><td>若欲若精進若念是實體不變，則僵化而死；正因它們是空的，所以它們能起作用——空是作用得以成立的前提</td></tr><tr><td>一寂滅相</td><td>矩陣的複雜性（四因二果諸解脫門診斷矩陣）在佛的終極體驗中消融為單一寧靜的寂滅相</td></tr><tr><td>真空妙有</td><td>因為無執，所以無減；因其空故，其量無限——佛安住一寂滅相（真空），又從此寂靜中令四因二果完美運作以度眾生（妙有）</td></tr></tbody></table><p class="c26p12-note">本品以「四因二果」的精密系統回答一個尖銳提問：佛一切法中皆無減，何以獨舉六事說無減？答案是欲精進念慧四因構成引擎，解脫與解脫知見二果構成目標，首尾相銜、沒有缺口，故能代表佛的全體圓滿。「知」與「見」二字合為雙股之繩，方能涵蓋阿毘曇三種慧而不遺漏；阿羅漢知總相如房間之燈，佛遍知一切如太陽之光、更具法眼清淨精準匹配眾生解脫之門，此即「有減」與「無減」的分野。終轉入第一義諦：能修之法本性皆空，正因其空，才能無礙起用——因為無執，所以無減；因其空故，其量無限，此即解脫知見無減的真空妙有。</p></div></div>
+<script id="wy-c26p12-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c26p12Btn"),BOX=document.getElementById("c26p12Box"),MODAL=document.getElementById("c26p12Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=11;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c26p12Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C26P12:END-->
 </body>
 </html>
