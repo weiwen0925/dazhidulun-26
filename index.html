@@ -1256,5 +1256,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C26P8:END-->
+<!--WY-C26P9:BEGIN-->
+<style id="wy-c26p9-css">
+.c26p9-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c26p9-fabbox.show{display:block;}
+.c26p9-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c26p9-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c26p9-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c26p9-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c26p9-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c26p9-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c26p9-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c26p9-modal.open{display:flex;}
+.c26p9-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c26p9-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c26p9-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c26p9-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c26p9-close:hover{background:#e3d5b8;}
+.c26p9-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c26p9-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c26p9-tbl th,.c26p9-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c26p9-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c26p9-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c26p9-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c26p9-tbl b{color:#8b2500;}
+.c26p9-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c26p9-note b{color:#8b2500;}
+@media(max-width:900px){.c26p9-fabbox{right:14px;}.c26p9-tbl{font-size:11.5px;}.c26p9-card{padding:26px 14px 16px;}}
+</style>
+<div class="c26p9-fabbox" id="c26p9Box"><button class="c26p9-btn" id="c26p9Btn" type="button" aria-label="開啟全景總表"><span class="c26p9-ic">▦</span><span class="c26p9-ls"><span class="c26p9-l1">本品 · 念無減</span><span class="c26p9-l2">失誤錯減不及 · 無所住故無減</span></span></button></div><div class="c26p9-modal" id="c26p9Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c26p9-card"><button class="c26p9-close" id="c26p9Close" type="button" aria-label="關閉">×</button><h3>卷二十六·第九品 念無減 · 全景總表</h3><p class="sub">卷二十六・第九品｜念無失念無減之辨・凡聖三維剖析・無所住故無減</p><table class="c26p9-tbl"><caption>一、失減之辨與本品定位（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心定義</td><td>念無減者，於三世諸法一切智慧相應故，念滿足無減——範圍橫遍三世、機制與一切智相應、結論能力上無極限</td></tr><tr><td>失減字義對位</td><td>失名誤錯，是行為層面的品質問題；減名不及，是能力層面的容量問題——一字之差分判兩種功德</td></tr><tr><td>念無失vs念無減</td><td>念無失＝威儀俯仰去來法中不失念（防守的極致，日常場景）；念無減＝住禪定神通念三世通達無礙（功能的極致，禪定場景）</td></tr><tr><td>二番問答結構</td><td>第一番辨念無失念無減之異；第二番究何以念無減獨是佛法——文本先立定義次二番問答末以結語收束</td></tr></tbody></table><table class="c26p9-tbl"><caption>二、凡聖三維剖析·獨佛之法</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>廣度·時間</td><td>聲聞辟支佛念宿命極多八萬劫，於廣有減；佛宿命智力隨念即知，廣度無量無邊</td></tr><tr><td>深度·微觀</td><td>二乘於見諦道中不能念念分別，見流不見微；佛於念念中皆分別生住滅三相，佛心無有一法而不念者</td></tr><tr><td>機制·力量來源</td><td>二乘之念來自修四念處，是用力維持的修力，力有竭時故猶有減；佛之念來自一切智與無礙解脫，是智慧流露的性德，源源不竭</td></tr><tr><td>牢固vs通達</td><td>聲聞辟支佛善修四念處故念牢固，但礙不通達；佛以一切智無礙解脫，念滿足而無減——牢固是守得住，通達是照得遍</td></tr></tbody></table><table class="c26p9-tbl"><caption>三、中觀心法與二諦口訣（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>正念冰山</td><td>念無失是露出水面的一角（走路知道走路），念無減是水面下的龐大主體（通達三世實相）</td></tr><tr><td>從無過到無限</td><td>牢固靠用力維持必有極限，如水庫蓄水終有其量；圓滿憑智慧流露方能無減，如晴空納物了無邊際</td></tr><tr><td>畢竟空底基</td><td>三世諸法畢竟空，能念與所念俱不可得，心無掛礙，故無極限——無著故無失，無邊際故無減</td></tr><tr><td>十字總持</td><td>由念起慧，由慧證脫——因為入不二法相故無量無邊，以是故慧無減；佛以一切智無礙解脫守護念，是故無減</td></tr></tbody></table><p class="c26p9-note">本品先以「失名誤錯，減名不及」八字精準對位「念無失」與「念無減」——前者是日常威儀不出差錯的行為零缺點，後者是禪定神通通達三世的能力無極限。繼而從廣度（八萬劫vs無量無邊）、深度（見流不見微vs念念分別三相）、機制（修力vs性德）三維剖析二乘與佛陀之別：二乘念雖牢固卻礙不通達，唯佛以一切智無礙解脫方能既守且遍。終歸中觀：三世諸法畢竟空，能念所念俱不可得，心無所住故無所減——「無所住」故威儀無失，「無邊際」故智慧無減，二者同源於中觀實相，於佛心中本來無二。</p></div></div>
+<script id="wy-c26p9-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c26p9Btn"),BOX=document.getElementById("c26p9Box"),MODAL=document.getElementById("c26p9Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=8;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c26p9Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C26P9:END-->
 </body>
 </html>
