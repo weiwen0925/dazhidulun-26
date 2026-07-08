@@ -1574,5 +1574,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C26P14:END-->
+<!--WY-C26P15:BEGIN-->
+<style id="wy-c26p15-css">
+.c26p15-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c26p15-fabbox.show{display:block;}
+.c26p15-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c26p15-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c26p15-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c26p15-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c26p15-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c26p15-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c26p15-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c26p15-modal.open{display:flex;}
+.c26p15-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c26p15-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c26p15-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c26p15-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c26p15-close:hover{background:#e3d5b8;}
+.c26p15-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c26p15-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c26p15-tbl th,.c26p15-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c26p15-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c26p15-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c26p15-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c26p15-tbl b{color:#8b2500;}
+.c26p15-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c26p15-note b{color:#8b2500;}
+@media(max-width:900px){.c26p15-fabbox{right:14px;}.c26p15-tbl{font-size:11.5px;}.c26p15-card{padding:26px 14px 16px;}}
+</style>
+<div class="c26p15-fabbox" id="c26p15Box"><button class="c26p15-btn" id="c26p15Btn" type="button" aria-label="開啟全景總表"><span class="c26p15-ic">▦</span><span class="c26p15-ls"><span class="c26p15-l1">本品 · 真實十八不共法辯</span><span class="c26p15-l2">五輪問答 · 大海與波浪</span></span></button></div><div class="c26p15-modal" id="c26p15Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c26p15-card"><button class="c26p15-close" id="c26p15Close" type="button" aria-label="關閉">×</button><h3>卷二十六·第十五品 真實十八不共法辯 · 全景總表</h3><p class="sub">卷二十六・第十五品｜迦旃延尼子舊說・五輪問答破立・真十八不共法三組統攝・畢竟空一相寂滅</p><table class="c26p15-tbl"><caption>一、兩造對峙與五輪問答總覽（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>兩造對峙</td><td>迦旃延尼子（部派）主張十力＋四無所畏＋三念住＋大悲＝十八不共法；龍樹（中觀）主張真不共法建立於絕對無失，唯佛獨具二乘始終無分</td></tr><tr><td>核心爭議</td><td>什麼是真正的不共——是佛比二乘知道得更多的程度之別，還是二乘完全無分的性質之別</td></tr><tr><td>五輪問答骨架</td><td>①重數謬誤辯②盡知遍知辯③舉證的邏輯④常無失之辨⑤論師自列十八→龍樹立真十八；終以阿毘曇分析反證、歸入般若實相</td></tr><tr><td>依法不依人</td><td>以是故名迦旃延尼子，若釋子則不作是說——不因論師名高位重而盲從，唯以法義究竟與否為斷</td></tr></tbody></table><table class="c26p15-tbl"><caption>二、四輪破舊說·重數有分比較級三重死因</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>謬誤一·重數</td><td>十力四無所畏三念住大悲已各有其名，重新加總湊成十八是邏輯上的疊床架屋——三十六法於佛法無量中如大海一渧</td></tr><tr><td>謬誤二·量與質迷思</td><td>盡知遍知四字乃論議師增字解經，佛只說知是處不是處；以知識量多寡論不共，混淆了量（程度）與質（性質）</td></tr><tr><td>謬誤三·有分無分</td><td>十力佛雖盡知遍知，而聲聞辟支佛有少分——十八不共法中始終都無分，方是真不共，判準從量的多寡轉為有分無分的性質之別</td></tr><tr><td>常無失方為真不共</td><td>不以不失為不共，而以常無失為不共；阿羅漢雖斷煩惱習氣猶存故僅能偶爾無失，唯佛斷盡習氣方能恆常無失</td></tr></tbody></table><table class="c26p15-tbl"><caption>三、真十八建立與歸入般若（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>篩選標準</td><td>不共法皆以智慧為義，凡屬色身果報之德（無見頂、足下柔軟、如十萬白香象力）一概濾去，唯留智慧功德</td></tr><tr><td>真十八三組統攝</td><td>無失（身無失口無失念無失無異想無不定心無不知已捨1-6）＋無減（欲精進念慧解脫解脫知見無減7-12）＋智慧行（身口意業隨智三世無礙13-18）</td></tr><tr><td>阿毘曇式反證</td><td>以對手工具五眾攝界地漏無漏四緣隨心行嚴密剖析真十八不共法，證明大乘所立經得起最精細的部派教義拆解</td></tr><tr><td>大海與波浪結語</td><td>初如是分別入般若波羅蜜諸法實相中盡皆一相所謂無相，入佛心皆一寂滅相——名相辯論如波浪，實相智慧如大海</td></tr></tbody></table><p class="c26p15-note">本品是全卷首尾相扣的總結辯——回應第一品「二乘有分故前十八不名不共」的伏筆，正面迎戰迦旃延尼子「十力四無所畏三念住大悲加總為十八」的舊說，以五輪問答層層破除重數、量質混淆、有分無分、雙重標準四重謬誤，終以「不共法皆以智慧為義」為篩網，過濾色身果報之德，建立可統攝為無失、無減、智慧行三組的真十八不共法。龍樹更運用對手擅長的阿毘曇範疇（五眾、界地、四緣）反證真十八不共法經得起最嚴密的名相剖析，並非虛談。然而名相辯論終究只是入口——「初如是分別，入般若波羅蜜諸法實相中，盡皆一相，所謂無相」，名數之諍如波浪起伏，般若寂滅如大海湛然，以阿毘曇之精細入中觀之寂滅，正是本品乃至全卷的終極歸宿。</p></div></div>
+<script id="wy-c26p15-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c26p15Btn"),BOX=document.getElementById("c26p15Box"),MODAL=document.getElementById("c26p15Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=14;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c26p15Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C26P15:END-->
 </body>
 </html>
