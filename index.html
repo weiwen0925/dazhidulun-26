@@ -2142,5 +2142,54 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH26P2:END-->
+<!--WY-BH26P3:BEGIN-->
+<style id="wy-bh26p3-css">
+.bh26p3-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh26p3-fabbox.show{display:block;}
+.bh26p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh26p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh26p3-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh26p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh26p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh26p3-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh26p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh26p3-modal.open{display:flex;}
+.bh26p3-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh26p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh26p3-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh26p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh26p3-close:hover{background:#dde2e6;}
+.bh26p3-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh26p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh26p3-tbl th,.bh26p3-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh26p3-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh26p3-tbl thead th:nth-child(1){width:32%;}.bh26p3-tbl thead th:nth-child(2){width:41%;}.bh26p3-tbl thead th:nth-child(3){width:27%;}
+.bh26p3-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh26p3-guan{background:#eef2f5;color:#37505f;}
+.bh26p3-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh26p3-tbl tbody tr:nth-child(even) td.bh26p3-guan{background:#e8eef2;}
+.bh26p3-tbl b{color:#8b2500;}
+.bh26p3-guan b{color:#2f6b5a;}
+.bh26p3-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh26p3-note b{color:#8b2500;}
+@media(max-width:900px){.bh26p3-fabbox{right:14px;}.bh26p3-tbl{font-size:11px;}.bh26p3-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh26p3-fabbox" id="bh26p3Box"><button class="bh26p3-btn" id="bh26p3Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh26p3-ic">譯</span><span class="bh26p3-ls"><span class="bh26p3-l1">本品 · 原文·白話·中觀</span><span class="bh26p3-l2">白話翻譯表</span></span></button></div><div class="bh26p3-modal" id="bh26p3Modal" role="dialog" aria-modal="true"><div class="bh26p3-card"><button class="bh26p3-close" id="bh26p3Close" type="button" aria-label="關閉">×</button><h3>卷二十六 · 第3品 白話翻譯表（念無失因緣與天問經問答）</h3><p class="sub">大智度論卷二十六·念無失 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh26p3-tbl"><caption>念無失因緣與天問經問答 · 原文｜白話翻譯｜中觀概念（共10段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh26p3-src">「念無失」者，四念處心長夜善修故；善修甚深禪定，心不散亂故；善斷欲愛及法愛，諸法中心無著故；得第一心安隱處故。若心懅怱怱，念有忘失；佛心無得失，以是故無失。</td><td>所謂「念無失」，是因為佛長久以來善於修習四念處，內心禪定不曾散亂；又善於斷除對欲界的貪愛以及對法的貪愛，於一切法中心無所執著；又證得第一等的心安穩之處。凡是心浮躁匆忙的人，正念才會有遺忘散失的時候；而佛心從無得失可言，因此念沒有過失。</td><td class="bh26p3-guan"><b>無著故無失</b>——念無失的根源，不在於刻意「記得更牢」，而在於「心無所著」——連對法的貪愛（法愛）都已斷除，無所住著，自然不會有得而復失的問題；這是從破除微細法執的角度說無失。</td></tr><tr><td class="bh26p3-src">復次，佛宿命通、明、力三種莊嚴念故，念則成就無失，念多在過去用故。</td><td>再者，佛以宿命通、宿命明、宿命力三種功德來莊嚴正念，因此念得以圓滿成就而無過失，而念這個作用大多是運用在憶持過去之事上。</td><td class="bh26p3-guan"><b>通明力三階莊嚴念</b>——同一宿命智慧，依淺深次第分為通、明、力三個層次來莊嚴「念」；層層遞進而非平行並列，顯示佛法對同一功德也細分深淺階位，非籠統一概而論。</td></tr><tr><td class="bh26p3-src">復次，念根力無邊無盡故，念無失。</td><td>再者，佛的念根、念力沒有邊際、沒有窮盡，所以念沒有過失。</td><td class="bh26p3-guan"><b>無邊無盡即無失</b>——凡夫之念有限有盡，故有遺忘之虞；佛之念根念力無邊無盡，並非量的無限延伸，而是照見諸法實相後自然具足的圓滿功德。</td></tr><tr><td class="bh26p3-src">復次，佛一切意業隨智慧行故，念無失；一一念隨意行故。</td><td>再者，佛的一切意業都隨順智慧而運行，所以念沒有過失；每一個念頭都隨著自己的心意運行自在。</td><td class="bh26p3-guan"><b>意業隨智慧行</b>——與身、口二業隨智慧行同一理路：意業（念）亦以智慧為導，念念皆與智慧相應，故不會有背離正念、產生過失的可能。</td></tr><tr><td class="bh26p3-src">如是等名為念無失。如《天問經》中說：</td><td>像這樣，就叫做「念無失」。正如《天問經》中所說：</td><td class="bh26p3-guan"><b>總結轉引經證</b>——以「如是等」總收前述諸義，並引《天問經》為證，顯示論主行文先義理、後經證的一貫論證結構，使義理有經典依據可循。</td></tr><tr><td class="bh26p3-src">問曰：若佛在後夜才入聖道（斷煩惱），為何經中卻說「我初夜得初明」？</td><td>問：如果佛是在後夜才證入聖道、斷除煩惱的，那麼經中為什麼卻說「我在初夜便證得初明」呢？</td><td class="bh26p3-guan"><b>時間先後的表面矛盾</b>——此問抓住經文字面上「初夜得明」與實際證道時間（後夜）之間的落差，是一個典型的文獻考證式提問，逼出下文「通」與「明」之辨。</td></tr><tr><td class="bh26p3-src">矛盾點：初夜時只有「通」，理論上不應稱為「明」。</td><td>問題的癥結在於：初夜的時候，其實只證得了「通」，照理說還不應該稱為「明」才對。</td><td class="bh26p3-guan"><b>通與明的層次之別</b>——此句點出關鍵：「通」與「明」雖常並稱，實則有淺深層次之別；徒有神通而未斷煩惱，尚不足以稱「明」，此為下文解答埋下伏筆。</td></tr><tr><td class="bh26p3-src">譬如國王未作王時生子，後作王時……以今是王故，以彼為王子，言：『王子彼時生。』</td><td>譬如一位國王，在還沒登基為王的時候生了兒子，後來他即位為王了……由於現在他已經是國王，人們便稱那個孩子為「王子」，說「王子是在那個時候出生的」。</td><td class="bh26p3-guan"><b>假名安立·不礙前後貫通</b>——「王子」之名是因後來即王位才安立於先前所生之子，名言本是依因緣假立、可以回溯貫通前後；以此譬喻「初明」之稱，也是依後來證得的圓滿智慧，回頭指稱初夜的證得，名言雖有先後，實質並不矛盾。</td></tr><tr><td class="bh26p3-src">問曰：通、明義如是，云何為力？</td><td>問：「通」與「明」的意義既然如此，那麼什麼是「力」呢？</td><td class="bh26p3-guan"><b>由明轉問力</b>——問答層層遞進：先辨通與明的關係，再進一步追問三者中最後、最深的「力」，顯示論主論述由淺入深、環環相扣的次第。</td></tr><tr><td class="bh26p3-src">答曰：佛用是明，知己身及眾生，無量無邊世中……種種悉遍知，是為「力」。</td><td>答：佛運用這樣的智慧之明，照知自己以及一切眾生，在無量無邊的世代之中……種種因緣果報無不完全了知，這就稱為「力」。</td><td class="bh26p3-guan"><b>明極致即為力</b>——「力」並非另一種與明無關的能力，而是「明」發揮到究竟圓滿、遍知一切而不可搖動的境地；通、明、力三者是同一智慧的漸次深化，而非三種互不相干的功德並列。</td></tr></tbody></table><p class="bh26p3-note">卷二十六第3品「念無失」原文·白話·中觀三欄對照。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh26p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh26p3Btn"),BOX=document.getElementById("bh26p3Box"),MODAL=document.getElementById("bh26p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+/*BHPLACE*/function place(){var cands=[document.getElementById("c26p3Box")],eb=document.querySelector(".wy-ebox");if(eb)cands.push(eb);var best=null;for(var i=0;i<cands.length;i++){var el=cands[i];if(!el)continue;var cs=getComputedStyle(el);if(cs.display==="none")continue;var r=el.getBoundingClientRect();if(r.height<=4)continue;var v=Math.round(window.innerHeight-r.top)+8;if(best===null||v>best)best=v;}if(best!==null)BOX.style.bottom=best+"px";}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh26p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH26P3:END-->
 </body>
 </html>
