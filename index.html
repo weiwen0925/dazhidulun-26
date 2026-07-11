@@ -2479,5 +2479,54 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH26P8:END-->
+<!--WY-BH26P9:BEGIN-->
+<style id="wy-bh26p9-css">
+.bh26p9-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh26p9-fabbox.show{display:block;}
+.bh26p9-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh26p9-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh26p9-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh26p9-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh26p9-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh26p9-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh26p9-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh26p9-modal.open{display:flex;}
+.bh26p9-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh26p9-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh26p9-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh26p9-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh26p9-close:hover{background:#dde2e6;}
+.bh26p9-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh26p9-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh26p9-tbl th,.bh26p9-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh26p9-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh26p9-tbl thead th:nth-child(1){width:32%;}.bh26p9-tbl thead th:nth-child(2){width:41%;}.bh26p9-tbl thead th:nth-child(3){width:27%;}
+.bh26p9-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh26p9-guan{background:#eef2f5;color:#37505f;}
+.bh26p9-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh26p9-tbl tbody tr:nth-child(even) td.bh26p9-guan{background:#e8eef2;}
+.bh26p9-tbl b{color:#8b2500;}
+.bh26p9-guan b{color:#2f6b5a;}
+.bh26p9-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh26p9-note b{color:#8b2500;}
+@media(max-width:900px){.bh26p9-fabbox{right:14px;}.bh26p9-tbl{font-size:11px;}.bh26p9-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh26p9-fabbox" id="bh26p9Box"><button class="bh26p9-btn" id="bh26p9Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh26p9-ic">譯</span><span class="bh26p9-ls"><span class="bh26p9-l1">本品 · 原文·白話·中觀</span><span class="bh26p9-l2">白話翻譯表</span></span></button></div><div class="bh26p9-modal" id="bh26p9Modal" role="dialog" aria-modal="true"><div class="bh26p9-card"><button class="bh26p9-close" id="bh26p9Close" type="button" aria-label="關閉">×</button><h3>卷二十六 · 第9品 白話翻譯表（念無減）</h3><p class="sub">大智度論卷二十六·念無減 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh26p9-tbl"><caption>念無減 · 原文｜白話翻譯｜中觀概念（共5段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh26p9-src">「念無減」者，於三世諸法，一切智慧相應故，念滿足無減。</td><td>所謂「念無減」，是說佛對於過去、現在、未來三世一切諸法，念念都與智慧相應，這份憶念圓滿具足、永無虧減，就稱為「念無減」。</td><td class="bh26p9-guan"><b>念與智慧相應·非單純記憶力</b>——此處的「念」並非世間所謂的記憶力強弱，而是與智慧不相捨離的正念；正因念念與智慧相應，才能對三世諸法圓滿覺照而無所遺漏，這是「念無減」有別於一般記憶能力的根本所在。</td></tr><tr><td class="bh26p9-src">問曰：先已說「念無失」，今復說「念無減」。「念無失」、「念無減」，為一？為異？若一，今何以重說？若異，有何差別？</td><td>問：前面已經說過「念無失」了，現在又說「念無減」。這「念無失」與「念無減」，究竟是同一回事？還是有所不同呢？如果是同一回事，為什麼現在又要重複再說一次？如果不同，那麼兩者之間的差別又在哪裡呢？</td><td class="bh26p9-guan"><b>設問·辨析名相不容混淆</b>——此問典型展現《大智度論》論證風格對名相精確性的高度重視：兩個字面相近的概念，若不加辨析便可能被誤認為同義反覆，此問即是要逼顯出兩者各自獨立存在的理由。</td></tr><tr><td class="bh26p9-src">答曰：「失念」名誤錯；「減」名不及。「失念」名威儀俯仰、去來法中失念；「無減」名住禪定神通，念過去、現在世通達無礙。</td><td>答：「失念」指的是心念上的差錯、失誤；「減」指的則是能力上的不足、不夠周遍。「失念」是指在行、住、坐、臥等日常威儀、俯仰進退的行為之中，一時心念有所疏失；「無減」則是指安住於禪定神通之中，對於過去世、現在世的一切能夠通達無礙、圓滿憶念，沒有絲毫不及之處。</td><td class="bh26p9-guan"><b>誤錯與不及·日常威儀與禪定神通二層</b>——此答以「誤錯」對「不及」精確劃分二者範疇：「念無失」關乎的是日常行住坐臥間，心念是否有片刻的疏忽差池，屬於有沒有出錯的層次；「念無減」關乎的則是甚深禪定神通中，覺照三世的廣度與深度是否圓滿周遍，屬於夠不夠周全的層次。二者一橫一縱、一淺一深，看似都用「念」字，實則各自守備不同的義理疆域，故非重複。</td></tr><tr><td class="bh26p9-src">問曰：何以故念無減獨是佛法？</td><td>問：為什麼「念無減」單單是佛才具有的功德法，而不與聲聞、辟支佛共通呢？</td><td class="bh26p9-guan"><b>詰問·聲聞辟支佛豈無正念</b>——聲聞、辟支佛同樣修習正念、具足禪定，此問便追問：既然二乘聖者也有相當的念力，為什麼「念無減」偏偏被列為唯佛獨有的不共法？</td></tr><tr><td class="bh26p9-src">答曰：聲聞、辟支佛，善修四念處故念牢固；念雖牢固，猶亦減少，礙不通達。如「宿命智力」中說：「聲聞、辟支佛，念宿命極多八萬劫，於廣有減。」亦於見諦道中，不能念念分別。佛於念念中皆分別三相，佛心無有一法而不念者，以是故，獨佛有念無減。</td><td>答：聲聞、辟支佛因為善於修習四念處，所以他們的念力相當牢固堅穩；但念力雖然牢固，仍然會有所減損不足，在通達的廣度上仍有障礙。就像「宿命智力」一節中所說的：「聲聞、辟支佛，能夠憶念的宿命最多只到八萬大劫，在廣度上仍是有所欠缺的。」而且他們在見道位的修證過程中，也無法做到念念之間都能清晰分別觀照。佛則不然，佛在念念之中都能同時分別觀照生、住、滅三相，佛心之中沒有任何一法是覺照不到、憶念不及的，正因為如此，唯獨佛才具有「念無減」的功德。</td><td class="bh26p9-guan"><b>八萬劫之限·佛智無量無邊為總結</b>——聲聞辟支佛「念宿命極多八萬劫」，說明二乘之念雖牢固卻仍有一個可以量化的邊界，是有量之念；佛之念則無量無邊世中種種悉遍知，是無量之念。有量與無量的分野，正是二乘與佛果最核心的差別所在，也總結了「念無減」何以獨屬佛法不共之德的根本原因——念念與智慧相應而無有一法不知不念，這正是遍知一切法畢竟空而宛然歷歷的智慧顯現。</td></tr></tbody></table><p class="bh26p9-note">卷二十六第9品「念無減」原文·白話·中觀三欄對照。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh26p9-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh26p9Btn"),BOX=document.getElementById("bh26p9Box"),MODAL=document.getElementById("bh26p9Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=8;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+/*BHPLACE*/function place(){var cands=[document.getElementById("c26p9Box")],eb=document.querySelector(".wy-ebox");if(eb)cands.push(eb);var best=null;for(var i=0;i<cands.length;i++){var el=cands[i];if(!el)continue;var cs=getComputedStyle(el);if(cs.display==="none")continue;var r=el.getBoundingClientRect();if(r.height<=4)continue;var v=Math.round(window.innerHeight-r.top)+8;if(best===null||v>best)best=v;}if(best!==null)BOX.style.bottom=best+"px";}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh26p9Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH26P9:END-->
 </body>
 </html>
